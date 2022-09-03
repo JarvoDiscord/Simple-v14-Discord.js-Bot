@@ -1,6 +1,10 @@
 # Simple-v14-Discord.js-Bot
 This is a very simple Discord.js bot that uses slash commands.
 
+To get to the basics:
+- I personally like it to have the Events and commands sorted per category (As you can see), so I did it as well with this test bot.
+- I also like it if you share this repo with your friends who are trying to make a bot but never succeed to make one 😅
+
 # About The Developer
 Hi!
 I am Jarvo, and I have been working on bots for a long time.
