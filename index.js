@@ -11,6 +11,19 @@ const {
 const fs = require("node:fs")
 
 
+const client = new Discord.Client({
+    intents: [
+      GatewayIntentBits.Guilds // And more you can provide by just copy-pasting and changing 'Guilds' to any other intent.
+    ],
+    partials: [
+      Partials.User, // These are the partials. Feel free to remove some.
+      Partials.Channel,
+      Partials.GuildMember,
+      Partials.Message
+    ]
+})
+
+
 // Command Handling
 client.commands = new Discord.Collection()
 
