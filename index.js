@@ -81,4 +81,4 @@ client.on("ready", () => {
     console.log(`Client ready; logged in as ${client.user.username}#${client.user.discriminator} (${client.user.id})`);
 })
 
-client.login(Token).catch(console.error)
+client.login(Config.Token).catch(console.error)
