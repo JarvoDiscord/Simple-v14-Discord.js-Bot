@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+const Config = require("./config.json")
 
 const {
     REST
