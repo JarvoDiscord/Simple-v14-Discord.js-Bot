@@ -1,5 +1,4 @@
 const Discord = require("discord.js")
-const Config = require("../../config.json")
 
 module.exports = async (client, interaction) => {
     if (!interaction.isCommand() && !interaction.isContextMenuCommand()) return; // When the interaction is not a command, not a contextmenu, it will not execute.
