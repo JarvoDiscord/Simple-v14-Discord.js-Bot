@@ -4,6 +4,7 @@ This is a very simple Discord.js bot that uses slash commands.
 To get to the basics:
 - I personally like it to have the Events and commands sorted per category (As you can see), so I did it as well with this test bot.
 - I also like it if you share this repo with your friends who are trying to make a bot but never succeed to make one 😅
+- To install the packages and make you a **package.json** file, just say `npm i` in your command prompt, and it will make you a **package.json** file and install all the packages from the latest version as well!
 
 # About The Developer
 Hi!
